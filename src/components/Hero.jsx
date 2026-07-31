@@ -7,14 +7,14 @@ import MorphingText from './ui/MorphingText'
 import AnimatedTextCycle from './ui/AnimatedTextCycle'
 
 const ROLES = [
-  'Engenheiro de Software',
-  'Desenvolvedor Backend',
+  'Software Engineer',
+  'Backend Developer',
   'PHP & Laravel',
   'Node.js & React',
-  'Disponível para Oportunidades',
+  'Available for Opportunities',
 ]
 
-const AVAILABILITY = ['vagas full-time', 'contratos', 'posições remotas', 'consultoria']
+const AVAILABILITY = ['full-time roles', 'contracts', 'remote positions', 'consulting']
 
 const fade = (delay = 0) => ({
   initial: { opacity: 0, y: 16 },
@@ -65,7 +65,7 @@ export default function Hero() {
             <span className="relative inline-flex rounded-full h-2 w-2 bg-emerald-500" />
           </span>
           <span className="font-mono text-xs text-zinc-500">
-            Disponível para{' '}
+            Available for{' '}
             <AnimatedTextCycle
               words={AVAILABILITY}
               interval={2600}
@@ -108,7 +108,7 @@ export default function Hero() {
             data-magnetic
             className="flex items-center gap-2 bg-[#0a0a0a] text-[#fafafa] text-sm font-medium px-5 py-2.5 hover:bg-zinc-800 transition-colors duration-150"
           >
-            Ver Experiência
+            View Experience
             <ArrowDown size={14} />
           </a>
           <a
@@ -117,7 +117,7 @@ export default function Hero() {
             data-magnetic
             className="flex items-center gap-2 border border-zinc-300 text-zinc-900 text-sm font-medium px-5 py-2.5 hover:border-zinc-600 hover:text-zinc-900 transition-colors duration-150"
           >
-            Baixar Currículo
+            Download Resume
             <Download size={14} />
           </a>
         </motion.div>

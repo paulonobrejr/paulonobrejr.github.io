@@ -94,8 +94,8 @@ export default function Experience() {
   return (
     <section id="experience" ref={sectionRef} className="py-24 px-6 bg-zinc-50">
       <div className="max-w-5xl mx-auto">
-        <p className="font-mono text-xs tracking-widest uppercase text-zinc-400 mb-2">Carreira</p>
-        <h2 className="text-3xl font-extrabold tracking-tight mb-14 text-[#0a0a0a]">Experiência</h2>
+        <p className="font-mono text-xs tracking-widest uppercase text-zinc-400 mb-2">Career</p>
+        <h2 className="text-3xl font-extrabold tracking-tight mb-14 text-[#0a0a0a]">Experience</h2>
 
         {/* Timeline */}
         <div className="relative ml-1.5">
@@ -114,7 +114,7 @@ export default function Experience() {
 
         {/* Education */}
         <div className="mt-16 pt-12 border-t border-zinc-200">
-          <p className="font-mono text-xs tracking-widest uppercase text-zinc-400 mb-4">Educação</p>
+          <p className="font-mono text-xs tracking-widest uppercase text-zinc-400 mb-4">Education</p>
           <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-1 border border-zinc-200 p-5">
             <div>
               <h3 className="font-semibold text-[#0a0a0a]">{education.school}</h3>

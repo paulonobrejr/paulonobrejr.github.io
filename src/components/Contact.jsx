@@ -17,10 +17,10 @@ export default function Contact() {
   return (
     <section id="contact" className="py-24 px-6 bg-[#fafafa]">
       <div className="max-w-5xl mx-auto">
-        <p className="font-mono text-xs tracking-widest uppercase text-zinc-400 mb-2">Entre em contato</p>
-        <h2 className="text-3xl font-extrabold tracking-tight mb-4 text-[#0a0a0a]">Contato</h2>
+        <p className="font-mono text-xs tracking-widest uppercase text-zinc-400 mb-2">Get in touch</p>
+        <h2 className="text-3xl font-extrabold tracking-tight mb-4 text-[#0a0a0a]">Contact</h2>
         <p className="text-zinc-500 text-sm mb-12 max-w-lg">
-          Aberto a novas oportunidades e projetos interessantes. Fique à vontade para entrar em contato.
+          Open to new opportunities and interesting projects. Feel free to reach out.
         </p>
 
         <motion.div

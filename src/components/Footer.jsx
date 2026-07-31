@@ -6,7 +6,7 @@ export default function Footer() {
           © {new Date().getFullYear()} Paulo Nobre Junior
         </p>
         <p className="font-mono text-xs text-zinc-400">
-          Desenvolvido com React + Tailwind
+          Built with React + Tailwind
         </p>
       </div>
     </footer>

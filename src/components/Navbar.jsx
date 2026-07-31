@@ -4,11 +4,11 @@ import { personal } from '../data/resume'
 import DockNav from './ui/DockNav'
 
 const links = [
-  { label: 'Início', href: '#home' },
-  { label: 'Experiência', href: '#experience' },
-  { label: 'Projetos', href: '#projects' },
-  { label: 'Habilidades', href: '#skills' },
-  { label: 'Contato', href: '#contact' },
+  { label: 'Home', href: '#home' },
+  { label: 'Experience', href: '#experience' },
+  { label: 'Projects', href: '#projects' },
+  { label: 'Skills', href: '#skills' },
+  { label: 'Contact', href: '#contact' },
 ]
 
 const pillGlass = {
@@ -80,7 +80,7 @@ export default function Navbar() {
               <div className="border-t border-zinc-200 pt-4">
                 <a href={personal.cv} download onClick={close}
                   className="flex items-center gap-1.5 text-sm text-zinc-500 hover:text-zinc-900 transition-colors">
-                  <Download size={13} /> Baixar CV
+                  <Download size={13} /> Download CV
                 </a>
               </div>
             </nav>
@@ -155,7 +155,7 @@ export default function Navbar() {
               <div className="border-t border-zinc-200 pt-3">
                 <a href={personal.cv} download onClick={close}
                   className="flex items-center gap-1.5 text-sm text-zinc-500 hover:text-zinc-900 transition-colors">
-                  <Download size={13} /> Baixar CV
+                  <Download size={13} /> Download CV
                 </a>
               </div>
             </nav>

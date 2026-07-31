@@ -1,57 +1,57 @@
 export const personal = {
   name: 'Paulo Nobre Junior',
-  title: 'Engenheiro de Software',
-  location: 'Brasil',
+  title: 'Software Engineer',
+  location: 'Brazil',
   email: 'paulonobrejunior@outlook.com',
   phone: '+55 21 98061-1149',
   linkedin: 'https://www.linkedin.com/in/paulonobrejr/',
   github: 'https://github.com/paulonobrejr',
   cv: '/Paulo Nobre Junior-resume.pdf',
   summary:
-    'Engenheiro de Software com 5+ anos em desenvolvimento backend escalável utilizando PHP (Laravel) e tecnologias em nuvem (AWS). Especialista em design de APIs RESTful seguras e modernização de sistemas legados, resultando em 30% de redução em dívida técnica e 25% de melhoria no desempenho das aplicações. Experiência em microsserviços e entregas ágeis em equipes internacionais.',
+    'Software Engineer with 5+ years of experience in scalable backend development using PHP (Laravel) and cloud technologies (AWS). Specialist in secure RESTful API design and legacy system modernization, delivering a 30% reduction in technical debt and a 25% improvement in application performance. Experienced in microservices and agile delivery across international teams.',
 }
 
 export const experience = [
   {
     company: 'Symplicity',
-    role: 'Engenheiro de Software',
+    role: 'Software Engineer',
     period: 'Nov 2022 – Mar 2026',
-    location: 'Remoto',
+    location: 'Remote',
     bullets: [
-      'Estruturou, desenvolveu e implementou aplicações web internas e APIs RESTful usando PHP e MySQL, contribuindo para escalabilidade, segurança e manutenibilidade a longo prazo do sistema.',
-      'Liderou iniciativas de modernização em sistemas PHP legados, refatorando caminhos críticos de código, atualizando versões do PHP e melhorando a qualidade do código para reduzir dívida técnica e aumentar a confiabilidade da plataforma.',
-      'Planejou e arquitetou APIs REST integrando serviços internos e sistemas de terceiros, garantindo contratos de API claros, fluxo de dados consistente e comportamento previsível entre componentes distribuídos.',
-      'Melhorou a estabilidade e o desempenho da aplicação com suporte a testes unitários (PHPUnit), monitoramento de problemas em produção e proposição de otimizações direcionadas com base em padrões de uso reais.',
-      'Criou e manteve documentação técnica cobrindo arquitetura de sistemas, regras de negócio e fluxos de desenvolvimento, apoiando onboarding e compartilhamento de conhecimento entre equipes de engenharia.',
-      'Mentorou estagiários e engenheiros júnior em PHP, programação orientada a objetos e arquitetura da plataforma interna, além de atuar como entrevistador técnico para funções backend e full-stack.',
+      'Structured, developed, and deployed internal web applications and RESTful APIs using PHP and MySQL, contributing to the long-term scalability, security, and maintainability of the system.',
+      'Led modernization initiatives on legacy PHP systems, refactoring critical code paths, upgrading PHP versions, and improving code quality to reduce technical debt and increase platform reliability.',
+      'Planned and architected REST APIs integrating internal services and third-party systems, ensuring clear API contracts, consistent data flow, and predictable behavior across distributed components.',
+      'Improved application stability and performance through unit test support (PHPUnit), production issue monitoring, and proposing targeted optimizations based on real usage patterns.',
+      'Created and maintained technical documentation covering system architecture, business rules, and development workflows, supporting onboarding and knowledge sharing across engineering teams.',
+      'Mentored interns and junior engineers in PHP, object-oriented programming, and internal platform architecture, while also acting as a technical interviewer for backend and full-stack roles.',
     ],
-    tags: ['PHP', 'MySQL', 'PHPUnit', 'REST APIs', 'Documentação'],
+    tags: ['PHP', 'MySQL', 'PHPUnit', 'REST APIs', 'Documentation'],
   },
   {
     company: 'Amirom Express',
-    role: 'Engenheiro de Software',
-    period: 'Ago 2025 – Jan 2026',
-    location: 'Remoto',
+    role: 'Software Engineer',
+    period: 'Aug 2025 – Jan 2026',
+    location: 'Remote',
     bullets: [
-      'Arquitetou e entregou uma plataforma SaaS de logística internacional ponta a ponta usando arquitetura de microsserviços escalável, suportando operações em tempo real, multi-tenancy e controle de acesso baseado em funções (RBAC).',
-      'Responsável pelas decisões arquiteturais e pelo desenvolvimento full-stack de uma aplicação web de alto desempenho com Next.js 14 (SSR), React 18, TypeScript e Node.js, garantindo SEO otimizado, escalabilidade e segurança de nível de produção.',
-      'Implementou padrões de segurança enterprise, incluindo autenticação JWT com cookies HTTP-only, 2FA, proteção CSRF, mecanismos de bloqueio de conta e melhores práticas alinhadas à OWASP.',
-      'Projetou e otimizou bancos de dados relacionais complexos (MySQL + Sequelize), resolvendo problemas de queries N+1 e implementando indexação estratégica, reduzindo o tempo de carregamento do dashboard de 3,2s para 0,8s.',
-      'Construiu dashboards em tempo real e análises processando 10.000+ registros de envios com desempenho sub-segundo, permitindo visibilidade operacional através de gráficos dinâmicos, KPIs e filtragem avançada.',
-      'Alcançou impacto mensurável: 1.000+ envios internacionais mensais, 70% de redução na entrada manual de dados e expansão de parceiros via isolamento de dados multi-stakeholder com white-label.',
+      'Architected and delivered an end-to-end international logistics SaaS platform using scalable microservices architecture, supporting real-time operations, multi-tenancy, and role-based access control (RBAC).',
+      'Owned architectural decisions and full-stack development of a high-performance web application with Next.js 14 (SSR), React 18, TypeScript, and Node.js, ensuring optimized SEO, scalability, and production-grade security.',
+      'Implemented enterprise security patterns, including JWT authentication with HTTP-only cookies, 2FA, CSRF protection, account lockout mechanisms, and OWASP-aligned best practices.',
+      'Designed and optimized complex relational databases (MySQL + Sequelize), resolving N+1 query issues and implementing strategic indexing, reducing dashboard load time from 3.2s to 0.8s.',
+      'Built real-time dashboards and analytics processing 10,000+ shipment records with sub-second performance, enabling operational visibility through dynamic charts, KPIs, and advanced filtering.',
+      'Achieved measurable impact: 1,000+ monthly international shipments, a 70% reduction in manual data entry, and partner expansion through white-label, multi-stakeholder data isolation.',
     ],
-    tags: ['Next.js', 'React', 'TypeScript', 'Node.js', 'MySQL', 'Microsserviços', 'JWT', 'AWS'],
+    tags: ['Next.js', 'React', 'TypeScript', 'Node.js', 'MySQL', 'Microservices', 'JWT', 'AWS'],
   },
   {
     company: 'Afilio',
-    role: 'Engenheiro de Software',
+    role: 'Software Engineer',
     period: 'Jun 2020 – Jul 2022',
     location: 'Rio de Janeiro',
     bullets: [
-      'Liderou a modernização de uma plataforma ERP central reconstruindo o frontend com Vue.js e Quasar, e integrando APIs PHP Laravel em uma arquitetura de microsserviços, melhorando significativamente a usabilidade, o desempenho e a escalabilidade.',
-      'Desenvolveu e aprimorou serviços backend em PHP Laravel, introduzindo novos recursos, resolvendo problemas em produção e gerenciando persistência de dados com MySQL e MongoDB em ambientes Docker.',
-      'Gerenciou implantações em múltiplos ambientes (desenvolvimento, staging e produção) usando AWS, CLI Linux e Git para controle de versão, garantindo lançamentos confiáveis e eficiência operacional.',
-      'Promovido a Engenheiro de Desenvolvimento de Software em reconhecimento ao maior escopo e impacto, trabalhando em equipes Agile (Scrum/Kanban) para garantir entrega consistente e alinhamento multifuncional.',
+      'Led the modernization of a core ERP platform by rebuilding the frontend with Vue.js and Quasar, and integrating PHP Laravel APIs into a microservices architecture, significantly improving usability, performance, and scalability.',
+      'Developed and enhanced backend services in PHP Laravel, introducing new features, resolving production issues, and managing data persistence with MySQL and MongoDB in Docker environments.',
+      'Managed deployments across multiple environments (development, staging, and production) using AWS, Linux CLI, and Git for version control, ensuring reliable releases and operational efficiency.',
+      'Promoted to Software Development Engineer in recognition of increased scope and impact, working in Agile teams (Scrum/Kanban) to ensure consistent delivery and cross-functional alignment.',
     ],
     tags: ['PHP', 'Laravel', 'Vue.js', 'MySQL', 'MongoDB', 'Docker', 'AWS'],
   },
@@ -59,46 +59,46 @@ export const experience = [
 
 export const education = {
   school: 'Estácio de Sá',
-  degree: 'Bacharelado em Ciência da Computação',
+  degree: "Bachelor's Degree in Computer Science",
   period: '2019 – 2023',
 }
 
 export const skills = [
   {
     category: 'Back-end',
-    items: ['PHP', 'Laravel', 'Node.js', 'REST APIs', 'JWT', 'PHPUnit', 'Microsserviços', 'OpenAPI'],
+    items: ['PHP', 'Laravel', 'Node.js', 'REST APIs', 'JWT', 'PHPUnit', 'Microservices', 'OpenAPI'],
   },
   {
     category: 'Front-end',
     items: ['JavaScript', 'TypeScript', 'React', 'Next.js', 'Vue.js', 'TailwindCSS', 'HTML', 'Zustand'],
   },
   {
-    category: 'Banco de Dados',
-    items: ['MySQL', 'MongoDB', 'PostgreSQL', 'Sequelize', 'SQL', 'NoSQL', 'Otimização de BD', 'Design de Schema'],
+    category: 'Databases',
+    items: ['MySQL', 'MongoDB', 'PostgreSQL', 'Sequelize', 'SQL', 'NoSQL', 'DB Optimization', 'Schema Design'],
   },
   {
     category: 'DevOps & Cloud',
     items: ['AWS', 'Docker', 'Git', 'GitLab CI', 'CI/CD', 'Linux', 'Server Side Rendering'],
   },
   {
-    category: 'Práticas',
-    items: ['Agile', 'TDD', 'Scrum', 'Kanban', 'Mentoria', 'Documentação', 'Code Review'],
+    category: 'Practices',
+    items: ['Agile', 'TDD', 'Scrum', 'Kanban', 'Mentoring', 'Documentation', 'Code Review'],
   },
 ]
 
 export const projects = [
   {
-    name: 'Amirom Express — SaaS de Logística',
+    name: 'Amirom Express — Logistics SaaS',
     description:
-      'Plataforma de logística internacional ponta a ponta com dashboards em tempo real, multi-tenancy, RBAC e análises processando 10.000+ registros de envios com desempenho sub-segundo.',
-    tags: ['Next.js 14', 'React 18', 'TypeScript', 'Node.js', 'MySQL', 'Microsserviços', 'AWS'],
+      'End-to-end international logistics platform with real-time dashboards, multi-tenancy, RBAC, and analytics processing 10,000+ shipment records with sub-second performance.',
+    tags: ['Next.js 14', 'React 18', 'TypeScript', 'Node.js', 'MySQL', 'Microservices', 'AWS'],
     github: null,
     live: null,
   },
   {
-    name: 'Modernização de ERP — Afilio',
+    name: 'ERP Modernization — Afilio',
     description:
-      'Reconstrução do frontend ERP legado com Vue.js e Quasar, integração de APIs de microsserviços PHP Laravel e gerenciamento de implantações AWS em múltiplos ambientes.',
+      'Rebuilt the legacy ERP frontend with Vue.js and Quasar, integrated PHP Laravel microservices APIs, and managed multi-environment AWS deployments.',
     tags: ['Vue.js', 'Quasar', 'PHP', 'Laravel', 'MySQL', 'MongoDB', 'Docker'],
     github: null,
     live: null,

@@ -43,7 +43,7 @@ function ProjectCard({ project, index }) {
               className="flex items-center gap-1.5 text-xs text-zinc-500 hover:text-zinc-900 transition-colors"
             >
               <Github size={13} />
-              Código
+              Code
             </a>
           )}
           {project.live && (
@@ -67,8 +67,8 @@ export default function Projects() {
   return (
     <section id="projects" className="py-24 px-6 bg-[#fafafa]">
       <div className="max-w-5xl mx-auto">
-        <p className="font-mono text-xs tracking-widest uppercase text-zinc-400 mb-2">Trabalho</p>
-        <h2 className="text-3xl font-extrabold tracking-tight mb-12 text-[#0a0a0a]">Projetos</h2>
+        <p className="font-mono text-xs tracking-widest uppercase text-zinc-400 mb-2">Work</p>
+        <h2 className="text-3xl font-extrabold tracking-tight mb-12 text-[#0a0a0a]">Projects</h2>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           {projects.map((project, i) => (

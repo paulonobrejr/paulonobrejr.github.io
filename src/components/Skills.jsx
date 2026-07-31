@@ -79,7 +79,7 @@ export default function Skills() {
     <section id="skills" className="py-24 px-6 bg-zinc-50">
       <div className="max-w-5xl mx-auto">
         <p className="font-mono text-xs tracking-widest uppercase text-zinc-400 mb-2">Stack</p>
-        <h2 className="text-3xl font-extrabold tracking-tight mb-12 text-[#0a0a0a]">Habilidades</h2>
+        <h2 className="text-3xl font-extrabold tracking-tight mb-12 text-[#0a0a0a]">Skills</h2>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-12 border-t border-zinc-200">
           {skills.map((group, i) => (

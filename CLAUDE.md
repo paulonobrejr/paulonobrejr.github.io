@@ -16,7 +16,9 @@ npm run preview   # preview the production build locally
 
 ## Deployment
 
-Push to `main` — GitHub Actions (`.github/workflows/deploy.yml`) auto-builds and deploys to GitHub Pages via the `github-pages` environment. **Before the first deploy**, go to the repo Settings → Pages → Source and select **GitHub Actions**.
+Push to `source` (the repo's default branch) — GitHub Actions (`.github/workflows/deploy.yml`) auto-builds and deploys to GitHub Pages via the `github-pages` environment. **Before the first deploy**, go to the repo Settings → Pages → Source and select **GitHub Actions**.
+
+Note: the `main` and `build` branches are legacy build-artifact snapshots (no `src/`) and are not part of the current deploy pipeline.
 
 ## Architecture
 

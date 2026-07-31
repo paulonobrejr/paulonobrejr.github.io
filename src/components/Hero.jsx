@@ -7,14 +7,13 @@ import MorphingText from './ui/MorphingText'
 import AnimatedTextCycle from './ui/AnimatedTextCycle'
 
 const ROLES = [
-  'Software Engineer',
-  'Backend Developer',
-  'PHP & Laravel',
+  'PHP & Laravel Engineer',
+  'Backend Software Engineer',
   'Node.js & React',
-  'Available for Opportunities',
+  'Open to International Roles',
 ]
 
-const AVAILABILITY = ['full-time roles', 'contracts', 'remote positions', 'consulting']
+const AVAILABILITY = ['full-time roles', 'international relocation', 'remote positions', 'contracts']
 
 const fade = (delay = 0) => ({
   initial: { opacity: 0, y: 16 },

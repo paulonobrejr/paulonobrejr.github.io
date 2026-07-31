@@ -1,6 +1,6 @@
 export const personal = {
   name: 'Paulo Nobre Junior',
-  title: 'Software Engineer',
+  title: 'Backend Software Engineer — PHP/Laravel Specialist',
   location: 'Brazil',
   email: 'paulonobrejunior@outlook.com',
   phone: '+55 21 98061-1149',
@@ -8,7 +8,7 @@ export const personal = {
   github: 'https://github.com/paulonobrejr',
   cv: '/Paulo Nobre Junior-resume.pdf',
   summary:
-    'Software Engineer with 5+ years of experience in scalable backend development using PHP (Laravel) and cloud technologies (AWS). Specialist in secure RESTful API design and legacy system modernization, delivering a 30% reduction in technical debt and a 25% improvement in application performance. Experienced in microservices and agile delivery across international teams.',
+    'Backend-focused Software Engineer with 5+ years building scalable SaaS platforms and RESTful APIs in PHP/Laravel and Node.js. Proven track record delivering measurable impact — 70% reduction in manual operations, sub-second performance on 10K+ record dashboards, and 25% application performance improvement across international teams.',
 }
 
 export const experience = [
@@ -65,32 +65,44 @@ export const education = {
 
 export const skills = [
   {
-    category: 'Back-end',
-    items: ['PHP', 'Laravel', 'Node.js', 'REST APIs', 'JWT', 'PHPUnit', 'Microservices', 'OpenAPI'],
+    category: 'Backend',
+    items: ['PHP 8.x', 'Laravel', 'Node.js', 'Express.js', 'REST APIs', 'GraphQL', 'Queues & Jobs', 'JWT', 'PHPUnit', 'Pest'],
   },
   {
-    category: 'Front-end',
-    items: ['JavaScript', 'TypeScript', 'React', 'Next.js', 'Vue.js', 'TailwindCSS', 'HTML', 'Zustand'],
+    category: 'Databases & Caching',
+    items: ['MySQL', 'PostgreSQL', 'MariaDB', 'MongoDB', 'Microsoft SQL Server', 'Redis', 'Query Optimization', 'Indexing', 'Schema Design'],
   },
   {
-    category: 'Databases',
-    items: ['MySQL', 'MongoDB', 'PostgreSQL', 'Sequelize', 'SQL', 'NoSQL', 'DB Optimization', 'Schema Design'],
+    category: 'Frontend',
+    items: ['Vue.js', 'React', 'Next.js', 'TypeScript', 'JavaScript', 'Tailwind CSS', 'Quasar', 'Redux', 'HTML5', 'CSS3', 'Responsive Web Design'],
   },
   {
-    category: 'DevOps & Cloud',
-    items: ['AWS', 'Docker', 'Git', 'GitLab CI', 'CI/CD', 'Linux', 'Server Side Rendering'],
+    category: 'DevOps & Infrastructure',
+    items: ['Docker', 'AWS (EC2, S3, RDS)', 'Linux (Ubuntu)', 'CI/CD', 'GitHub Actions', 'GitLab', 'Git', 'Swagger / OpenAPI'],
   },
   {
-    category: 'Practices',
-    items: ['Agile', 'TDD', 'Scrum', 'Kanban', 'Mentoring', 'Documentation', 'Code Review'],
+    category: 'Architecture & Design',
+    items: ['Microservices', 'MVC', 'SOLID', 'Clean Code', 'RBAC', 'SaaS', 'Server-Side Rendering (SSR)', 'API Design'],
+  },
+  {
+    category: 'Engineering Practices',
+    items: ['TDD', 'Code Review', 'Agile (Scrum/Kanban)', 'Mentoring', 'Technical Documentation'],
   },
 ]
 
 export const projects = [
   {
+    name: 'Legacy PHP Platform Modernization — Symplicity',
+    description:
+      'Led the modernization of legacy PHP systems at scale — refactoring critical code paths, upgrading PHP versions, and introducing PHPUnit coverage to reduce technical debt and increase platform reliability, while mentoring engineers on architecture and code quality.',
+    tags: ['PHP', 'MySQL', 'PHPUnit', 'REST APIs', 'Legacy Modernization'],
+    github: null,
+    live: null,
+  },
+  {
     name: 'Amirom Express — Logistics SaaS',
     description:
-      'End-to-end international logistics platform with real-time dashboards, multi-tenancy, RBAC, and analytics processing 10,000+ shipment records with sub-second performance.',
+      'Owned architecture and full-stack delivery of an end-to-end logistics SaaS platform — real-time dashboards, multi-tenancy, and RBAC. Resolved N+1 query bottlenecks and added strategic indexing to cut dashboard load time from 3.2s to 0.8s, while processing 10,000+ shipment records with sub-second performance.',
     tags: ['Next.js 14', 'React 18', 'TypeScript', 'Node.js', 'MySQL', 'Microservices', 'AWS'],
     github: null,
     live: null,
@@ -98,7 +110,7 @@ export const projects = [
   {
     name: 'ERP Modernization — Afilio',
     description:
-      'Rebuilt the legacy ERP frontend with Vue.js and Quasar, integrated PHP Laravel microservices APIs, and managed multi-environment AWS deployments.',
+      'Rebuilt the frontend of a core ERP platform with Vue.js and Quasar and integrated PHP Laravel APIs into a microservices architecture, significantly improving usability, performance, and scalability across multi-environment AWS deployments.',
     tags: ['Vue.js', 'Quasar', 'PHP', 'Laravel', 'MySQL', 'MongoDB', 'Docker'],
     github: null,
     live: null,
